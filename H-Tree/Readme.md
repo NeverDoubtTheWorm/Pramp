@@ -1,4 +1,4 @@
-H-Tree Construction
+#H-Tree Construction
 
 Construct an H-tree, given its center (x and y coordinates), starting_length and depth. You can assume that you have a drawLine method. 
 
