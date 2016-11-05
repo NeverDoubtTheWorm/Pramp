@@ -6,9 +6,10 @@ In sudoku, the objective is to fill a 9x9 board with digits so that each column,
 
 A sudoku board is represented in a two dimensional 9x9 array with the numbers 1,2,...,9 and blank spaces, and the function should fill the blank spaces with numbers such that the following rules apply:
 
-In every row of the array, all numbers 1,2,...,9 appear exactly once.
-In every column of the array, all numbers 1,2,...,9 appear exactly once.
-In every 3x3 sub-board that is illustrated below, all numbers 1,2,...,9 appear exactly once.
+1. In every row of the array, all numbers 1,2,...,9 appear exactly once.
+2. In every column of the array, all numbers 1,2,...,9 appear exactly once.
+3. In every 3x3 sub-board that is illustrated below, all numbers 1,2,...,9 appear exactly once.
+
 A solved sudoku is a board with no blank spaces, i.e. all blank spaces are filled with numbers that abide to the constraints above. If the function succeeds in solving the sudoku board, it'll return true (false, otherwise).
 
 Example (more examples can be found [here](http://www.sudokukingdom.com/)):
